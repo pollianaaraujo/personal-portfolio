@@ -1,3 +1,86 @@
-h1 {
-  color: red;
+:root {
+  --heading-font: "Prata", serif;
+  --content-font: "DM Sans", sans-serif;
+  --link-color: #482a1f;
+  --primary-color: #705549;
+  --highlight-color: #b85621;
+  --secondary-color: #adb3b6;
+  --neutral-color: #ececf0;
+}
+
+.navigation-links a {
+  color: var(--link-color);
+  font-family: var(--content-font);
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: var(--neutral-color);
+}
+
+.hero-section h1 {
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+  font-size: 40px;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.hero-section p {
+  color: var(--primary-color);
+  font-family: var(--content-font);
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 36px;
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.primary-button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--link-color);
+  border: 1px solid var(--link-color);
+  opacity: 0.8;
+  padding: 10px 52px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin-right: 24px;
+}
+
+.primary-button:hover {
+  color: var(--link-color);
+  background-color: var(--neutral-color);
+  border: 1px solid var(--link-color);
+  cursor: pointer;
+}
+
+.ghost-button {
+  color: var(--link-color);
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--neutral-color);
+  border: 1px solid var(--link-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.ghost-button:hover {
+  color: #ffffff;
+  background-color: var(--link-color);
+  border: 1px solid var(--link-color);
+  opacity: 0.8;
+  cursor: pointer;
 }

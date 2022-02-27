@@ -169,3 +169,26 @@
   color: #ffffff;
   background-color: var(--primary-color);
 }
+
+.contact-section {
+  background-color: var(--neutral-color);
+  color: var(--primary-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-section h2 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  padding-bottom: 8px;
+}
+
+.contact-section p {
+  font-family: var(--content-font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 36px;
+}

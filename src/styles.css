@@ -6,6 +6,7 @@
   --highlight-color: #b85621;
   --secondary-color: #adb3b6;
   --neutral-color: #ececf0;
+  --notes-color: #bfb1a9;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -191,4 +192,63 @@
   font-weight: 400;
   line-height: 1.5em;
   padding-bottom: 36px;
+}
+
+.footer-section {
+  font-family: var(--content-font);
+  color: var(--secondary-color);
+  margin-top: 90px;
+}
+
+.footer-brand-info {
+  margin-top: 30px;
+}
+
+.footer-brand-info p {
+  font-size: 12px;
+  line-height: 1.2em;
+  margin-left: 56px;
+}
+
+.footer-heading {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  display: inline;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+.footer-notes {
+  color: var(--secondary-color);
+  font-size: 12px;
+  line-height: 1.2em;
+  padding: 12px 0;
+}
+
+.footer-notes p {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.footer-links li,
+.footer-notes a {
+  text-decoration: none;
+  color: var(--notes-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-links li:hover,
+.footer-notes a:hover {
+  color: var(--highlight-color);
+}
+
+.footer-social-links {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

@@ -252,3 +252,80 @@
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+@media screen and (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+
+  .hero-section h1,
+  .about-section h2,
+  .work-section h2,
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  .hero-section p,
+  .about-section p,
+  .work-section p,
+  .contact-section p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .about-section img {
+    margin-top: 24px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primary-button {
+    margin-bottom: 16px;
+  }
+
+  .hero-buttons a {
+    margin-right: 0;
+  }
+
+  .work-section {
+    padding-top: 30px;
+  }
+
+  .contact-section {
+    padding: 30px 0;
+  }
+
+  .footer-section {
+    margin-top: 30px;
+  }
+
+  .footer-brand-info p {
+    margin: 0 40px;
+  }
+
+  .footer-links {
+    padding: 0;
+    display: block;
+    margin-top: 24px;
+  }
+
+  .footer-links li {
+    padding-bottom: 8px;
+  }
+
+  .footer-social-links {
+    margin: 24px 0;
+  }
+
+  .footer-notes {
+    flex-direction: column;
+  }
+
+  .footer-notes p {
+    margin-bottom: 24px;
+  }
+}

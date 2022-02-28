@@ -235,7 +235,7 @@
   list-style: none;
 }
 
-.footer-links li,
+.footer-links a,
 .footer-notes a {
   text-decoration: none;
   color: var(--notes-color);
@@ -243,7 +243,7 @@
   cursor: pointer;
 }
 
-.footer-links li:hover,
+.footer-links a:hover,
 .footer-notes a:hover {
   color: var(--highlight-color);
 }

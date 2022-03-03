@@ -22,7 +22,8 @@
   color: var(--highlight-color);
 }
 
-.hero-section {
+.hero-section,
+.header-section {
   background-color: var(--neutral-color);
   padding-bottom: 60px;
 }

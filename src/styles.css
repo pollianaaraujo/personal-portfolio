@@ -82,11 +82,13 @@ p {
   padding-bottom: 36px;
 }
 
-.hero-buttons a {
+.hero-buttons a,
+.project-buttons a {
   margin-right: 24px;
 }
 
-.hero-buttons a:last-child {
+.hero-buttons a:last-child,
+.project-buttons a:last-child {
   margin-right: 0;
 }
 
@@ -99,7 +101,7 @@ p {
   background-color: var(--link-color);
   border: 1px solid var(--link-color);
   opacity: 0.8;
-  padding: 10px 52px;
+  padding: 12px 48px;
   text-decoration: none;
   border-radius: 40px;
 }
@@ -117,7 +119,7 @@ p {
   font-weight: 500;
   background-color: transparent;
   border: 1px solid var(--link-color);
-  padding: 10px 20px;
+  padding: 12px 36px;
   text-decoration: none;
   border-radius: 40px;
 }
@@ -136,7 +138,7 @@ p {
   font-weight: 500;
   background-color: transparent;
   border: 1px solid #ffffff;
-  padding: 10px 40px;
+  padding: 12px 40px;
   text-decoration: none;
   border-radius: 40px;
 }
@@ -156,7 +158,7 @@ p {
 }
 
 .homepage-paragraphs,
-.contact-info-paragraph {
+.content-page-paragraph {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5em;
@@ -198,19 +200,28 @@ p {
   max-width: 80%;
 }
 
+.work-info-paragraph {
+  color: var(--primary-color);
+}
+
 .contact-section {
   background-color: var(--neutral-color);
+  color: var(--primary-color);
 }
 
 .contact-section,
-.contact-info-page {
-  color: var(--primary-color);
+.content-pages {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .contact-info-title {
+  color: var(--primary-color);
   font-size: 36px;
+}
+
+.work-page-title {
+  font-size: 28px;
 }
 
 /* Banner section styling */
@@ -222,6 +233,7 @@ p {
 }
 
 .banner p {
+  font-size: 24px;
   padding-bottom: 24px;
 }
 
@@ -305,7 +317,8 @@ p {
 /* Media queries */
 
 @media screen and (max-width: 576px) {
-  .hero-buttons {
+  .hero-buttons,
+  .project-buttons {
     display: flex;
     flex-direction: column;
   }
@@ -314,8 +327,13 @@ p {
     margin-bottom: 16px;
   }
 
-  .hero-buttons a {
+  .hero-buttons a,
+  .project-buttons a {
     margin-right: 0;
+  }
+
+  .contact-page-button {
+    padding: 12px 40px;
   }
 }
 
@@ -340,6 +358,29 @@ p {
     padding: 0 10px;
   }
 
+  .page-header {
+    padding-bottom: 30px;
+  }
+
+  .page-title,
+  .contact-info-title {
+    font-size: 28px;
+  }
+
+  .page-subtitle {
+    font-size: 16px;
+    padding: 0 12px;
+  }
+
+  .content-pages {
+    padding: 30px 0;
+  }
+
+  .content-page-paragraph {
+    font-size: 16px;
+    padding: 0 12px;
+  }
+
   .about-section img {
     margin-top: 24px;
   }
@@ -350,6 +391,15 @@ p {
 
   .contact-section {
     padding: 30px 0;
+  }
+
+  .contact-image {
+    padding-top: 24px;
+  }
+
+  .banner p {
+    font-size: 20px;
+    padding: 0 16px;
   }
 
   .footer-section {

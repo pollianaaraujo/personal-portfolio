@@ -155,7 +155,8 @@ p {
   padding-bottom: 8px;
 }
 
-.homepage-paragraphs {
+.homepage-paragraphs,
+.contact-info-paragraph {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5em;
@@ -199,9 +200,45 @@ p {
 
 .contact-section {
   background-color: var(--neutral-color);
+}
+
+.contact-section,
+.contact-info-page {
   color: var(--primary-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.contact-info-title {
+  font-size: 36px;
+}
+
+/* Banner section styling */
+
+.banner {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 30px 0;
+}
+
+.banner p {
+  padding-bottom: 24px;
+}
+
+.work-banner {
+  color: var(--primary-color);
+  background-color: #ded1cd;
+}
+
+.contact-banner {
+  color: #ffffff;
+  background-color: var(--notes-color);
+}
+
+.coffee-banner {
+  background-color: var(--link-color);
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 /* Footer styling */
@@ -263,34 +300,6 @@ p {
 .footer-social-links {
   margin-top: 60px;
   margin-bottom: 60px;
-}
-
-/* Banner section styling */
-
-.banner {
-  font-size: 24px;
-  font-weight: 400;
-  padding: 30px 0;
-}
-
-.banner p {
-  padding-bottom: 24px;
-}
-
-.work-banner {
-  color: var(--primary-color);
-  background-color: #ded1cd;
-}
-
-.contact-banner {
-  color: #ffffff;
-  background-color: var(--notes-color);
-}
-
-.coffee-banner {
-  background-color: var(--link-color);
-  color: #ffffff;
-  opacity: 0.8;
 }
 
 /* Media queries */

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <title>Contact me</title>
 
     <!-- Bootstrap Link -->
     <link
@@ -40,7 +40,7 @@
   </head>
 
   <body>
-    <div class="header-section">
+    <div class="navbar-section">
       <!-- Start of Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -93,67 +93,75 @@
           </div>
         </div>
       </nav>
-      <!-- End of navbar -->
+    </div>
+    <!-- End of navbar -->
 
-      <!-- Page Header Content -->
+    <!-- Page Header Content -->
     <div class="page-header">
-      <h1>Contact me</h1>
-      <p>
-        See how you can talk to me and <span class="highlight">support</span> my work.
+      <h1 class="page-title">Contact me</h1>
+      <p class="page-subtitle">
+        See how you can talk to me and <span class="highlight">support</span> my
+        work.
       </p>
     </div>
 
     <!-- Contact Info Content -->
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-12 col-lg-5 offset-2">
-    <h2>Feel free to say hi!</h2>
-<p>Do you like my work and want to talk about a project idea? Send me an e-mail.</p>
-<a class="btn" href="mailto:pollianaaraujo@gmail.com">pollianaaraujo@gmail.com</a>
-</div>
-<div class="col-12 col-lg-3">
-<img class="img-fluid" src="/images/contact-page-picture.png" alt="Girl with a dog">
-</div>
-</div>
-</div>
-
+          <h2>Feel free to say hi!</h2>
+          <p>
+            Do you like my work and want to talk about a project idea? Send me
+            an e-mail.
+          </p>
+          <a class="btn" href="mailto:pollianaaraujo@gmail.com"
+            >pollianaaraujo@gmail.com</a
+          >
+        </div>
+        <div class="col-12 col-lg-3">
+          <img
+            class="img-fluid"
+            src="/images/contact-page-picture.png"
+            alt="Girl with a dog"
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- Buy me a coffee Section Link -->
-    
-    <div class="container">
-      <div class="coffee-banner">
-        <div class="row">
-          <div class="col-12 col-lg-3">
+    <div class="banner coffee-banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-2 offset-lg-2">
             <img
-              class="img-fluid"
+              class="img-fluid d-none d-lg-block"
               src="images/buy-me-coffee.png"
               alt="plant"
             />
           </div>
-          <div class="col-12 col-lg 7 offset-1">
+          <div class="col-12 col-lg-5 offset-lg-1">
             <p>
               Do you like my work? If you want to support me, buy me a coffee:
             </p>
-            <a class="btn ghost-button" href="#">Buy me a coffee</a>
+            <a class="btn secondary-button" href="#">Buy me a coffee</a>
           </div>
         </div>
       </div>
     </div>
 
-<!-- Footer section -->
+    <!-- Footer section -->
 
-    <footer class=" container footer-section">
+    <footer class="container footer-section">
       <!-- Brand information -->
 
       <div class="row align-items-center">
+        <div class="col-12 col-lg-3 footer-brand-info">
+          <img class="img-fluid" src="/images/logo.svg" alt="Coffee Logo" />
+          <h3 class="footer-heading">Polliana Araújo</h3>
+          <p>Product Manager & Front-end developer from Brazil.</p>
+        </div>
 
-      <div class="col-12 col-lg-3 footer-brand-info">
-        <img class="img-fluid" src="/images/logo.svg" alt="Coffee Logo" />
-        <h3 class="footer-heading">Polliana Araújo</h3>
-        <p>Product Manager & Front-end developer from Brazil.</p>
-      </div>
-
-      <!-- Page links -->
+        <!-- Page links -->
         <div class="col-12 col-lg-8">
           <ul class="footer-links">
             <li><a href="/index.html" title="Homepage">Homepage</a></li>
@@ -162,48 +170,63 @@
             <li><a href="/contact.html" title="Contact me">Contact me</a></li>
           </ul>
         </div>
-</div>
+      </div>
       <!-- Social Media links -->
 
       <div class="row footer-social-links">
-             <div class="col-12 col-lg-5 offset-lg-4">
-            <p>Keep updated about my work following me on social media.</p>
-            </div>
-          <div class="col-12 col-lg-3 footer-social-icons">
-            <a href="https://github.com/pollianaaraujo" title="GitHub" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/github-icon.svg"
-                alt="Github Profile"
-            /></a>
-            <a href="https://www.instagram.com/pollibud/" title="Instagram" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/instagram-icon.svg"
-                alt="Instagram Profile"
-            /></a>
-            <a href="https://br.pinterest.com/pollibud/" title="Pinterest" target="_blank">
-              <img
-                class="img-fluid"
-                src="images/pinterest-icon.svg"
-                alt="Pinterest Profile"
-            /></a>
-            <a href="https://www.linkedin.com/in/pollianaaraujo/" title="LinkedIn" 
-              target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/linkedin-icon.svg"
-                alt="LinkedIn Profile"
-            /></a>
-            <a href="#" title="Buy me a coffe" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/bmc-icon.svg"
-                alt="Buy me a coffee Profile"
-            /></a>
-          </div>
+        <div class="col-12 col-lg-5 offset-lg-4">
+          <p>Keep updated about my work following me on social media.</p>
         </div>
-</div>
+        <div class="col-12 col-lg-3 footer-social-icons">
+          <a
+            href="https://github.com/pollianaaraujo"
+            title="GitHub"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/github-icon.svg"
+              alt="Github Profile"
+          /></a>
+          <a
+            href="https://www.instagram.com/pollibud/"
+            title="Instagram"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/instagram-icon.svg"
+              alt="Instagram Profile"
+          /></a>
+          <a
+            href="https://br.pinterest.com/pollibud/"
+            title="Pinterest"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="images/pinterest-icon.svg"
+              alt="Pinterest Profile"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/pollianaaraujo/"
+            title="LinkedIn"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/linkedin-icon.svg"
+              alt="LinkedIn Profile"
+          /></a>
+          <a href="#" title="Buy me a coffe" target="_blank">
+            <img
+              class="img-fluid"
+              src="/images/bmc-icon.svg"
+              alt="Buy me a coffee Profile"
+          /></a>
+        </div>
+      </div>
+
       <!-- Copyright and icons reference -->
 
       <div class="border-top footer-notes d-flex justify-content-around">
@@ -211,6 +234,5 @@
         <p>Icons from <a href="#" title="Iconfinder">Iconfinder</a></p>
       </div>
     </footer>
-
   </body>
 </html>

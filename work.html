@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <title>My work</title>
 
     <!-- Bootstrap Link -->
     <link
@@ -40,7 +40,7 @@
   </head>
 
   <body>
-    <div class="header-section">
+    <div class="navbar-section">
       <!-- Start of Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -77,7 +77,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/work.html" title="Featured work"
+                <a
+                  class="nav-link active"
+                  href="/work.html"
+                  title="Featured work"
                   >My work</a
                 >
               </li>
@@ -93,78 +96,103 @@
           </div>
         </div>
       </nav>
-      <!-- End of navbar -->
+    </div>
+    <!-- End of navbar -->
 
-      <!-- Page Header Content -->
+    <!-- Page Header Content -->
     <div class="page-header">
-      <h1>Featured Projects</h1>
-      <p>
-        See some of the main projects I <span class="highlight">designed and built</span> recently.
+      <h1 class="page-title">Featured Projects</h1>
+      <p class="page-subtitle">
+        See some of the main projects I
+        <span class="highlight">designed and built</span> recently.
       </p>
     </div>
 
     <!-- Contact Info Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 offset-3">
-            <img class="img-fluid" src="images/weather-app.png" alt="Weather App Project">
-            <h2>Kaze Weather App</h2>
-            <p>I made this application using HTML, CSS, and Javascript for the final project for the SheCodes Plus course. Because it's a weather app, I decided to name it Kaze, which means wind in Japanese. Also, it's one of the available names for Jin Sakai's horse on Ghost of Tsushima game.</p>
-            <a class="btn" href="#">Check the code</a>
-            <a class="btn" href="#">See it live</a>
-            </div>
-            <div class="col-12 col-lg-6 offset-3">
-            <img class="img-fluid" src="images/not-found.png" alt="Not Found Page">
-            <h2>404 Page</h2>
-            <p>This project is a simple page made only with HTML and CSS to practice my basic skills.</p>
-            <a class="btn" href="#">Check the code</a>
-            <a class="btn" href="#">See it live</a>
-            </div>
-            <div class="col-12 col-lg-6 offset-3">
-            <img class="img-fluid" src="images/chat-app.png" alt="Chat App Design">
-            <h2>Chat App Homepage</h2>
-            <p>I created this mockup on Figma as practice of my user interface skills.</p>
-            <a class="btn" href="#">Check the design</a>
-            </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 offset-3">
+          <img
+            class="img-fluid"
+            src="images/weather-app.png"
+            alt="Weather App Project"
+          />
+          <h2>Kaze Weather App</h2>
+          <p>
+            I made this application using HTML, CSS, and Javascript for the
+            final project for the SheCodes Plus course. Because it's a weather
+            app, I decided to name it Kaze, which means wind in Japanese. Also,
+            it's one of the available names for Jin Sakai's horse on Ghost of
+            Tsushima game.
+          </p>
+          <a class="btn" href="#">Check the code</a>
+          <a class="btn" href="#">See it live</a>
         </div>
+        <div class="col-12 col-lg-6 offset-3">
+          <img
+            class="img-fluid"
+            src="images/not-found.png"
+            alt="Not Found Page"
+          />
+          <h2>404 Page</h2>
+          <p>
+            This project is a simple page made only with HTML and CSS to
+            practice my basic skills.
+          </p>
+          <a class="btn" href="#">Check the code</a>
+          <a class="btn" href="#">See it live</a>
+        </div>
+        <div class="col-12 col-lg-6 offset-3">
+          <img
+            class="img-fluid"
+            src="images/chat-app.png"
+            alt="Chat App Design"
+          />
+          <h2>Chat App Homepage</h2>
+          <p>
+            I created this mockup on Figma as practice of my user interface
+            skills.
+          </p>
+          <a class="btn" href="#">Check the design</a>
+        </div>
+      </div>
     </div>
 
     <!-- Contact Section Link -->
-    
-    <div class="container">
-      <div class="contact-banner">
-        <div class="row">
-          <div class="col-12 col-lg-2">
+    <div class="banner contact-banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-2 offset-lg-2">
             <img
-              class="img-fluid"
+              class="img-fluid d-none d-lg-block"
               src="images/contact-banner.png"
               alt="plant"
             />
           </div>
-          <div class="col-12 col-lg 7 offset-1">
+          <div class="col-12 col-lg-6 offset-lg-1">
             <p>
-              If you're interested in working together or want to comment about my projects, don’t be a stranger.
+              If you're interested in working together or want to comment about
+              my projects, don't be a stranger.
             </p>
-            <a class="btn ghost-button" href="/contact.html">Say hi!</a>
+            <a class="btn secondary-button" href="/contact.html">Say hi!</a>
           </div>
         </div>
       </div>
     </div>
 
-<!-- Footer section -->
+    <!-- Footer section -->
 
-    <footer class=" container footer-section">
+    <footer class="container footer-section">
       <!-- Brand information -->
 
       <div class="row align-items-center">
+        <div class="col-12 col-lg-3 footer-brand-info">
+          <img class="img-fluid" src="/images/logo.svg" alt="Coffee Logo" />
+          <h3 class="footer-heading">Polliana Araújo</h3>
+          <p>Product Manager & Front-end developer from Brazil.</p>
+        </div>
 
-      <div class="col-12 col-lg-3 footer-brand-info">
-        <img class="img-fluid" src="/images/logo.svg" alt="Coffee Logo" />
-        <h3 class="footer-heading">Polliana Araújo</h3>
-        <p>Product Manager & Front-end developer from Brazil.</p>
-      </div>
-
-      <!-- Page links -->
+        <!-- Page links -->
         <div class="col-12 col-lg-8">
           <ul class="footer-links">
             <li><a href="/index.html" title="Homepage">Homepage</a></li>
@@ -173,48 +201,62 @@
             <li><a href="/contact.html" title="Contact me">Contact me</a></li>
           </ul>
         </div>
-</div>
+      </div>
       <!-- Social Media links -->
 
       <div class="row footer-social-links">
-             <div class="col-12 col-lg-5 offset-lg-4">
-            <p>Keep updated about my work following me on social media.</p>
-            </div>
-          <div class="col-12 col-lg-3 footer-social-icons">
-            <a href="https://github.com/pollianaaraujo" title="GitHub" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/github-icon.svg"
-                alt="Github Profile"
-            /></a>
-            <a href="https://www.instagram.com/pollibud/" title="Instagram" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/instagram-icon.svg"
-                alt="Instagram Profile"
-            /></a>
-            <a href="https://br.pinterest.com/pollibud/" title="Pinterest" target="_blank">
-              <img
-                class="img-fluid"
-                src="images/pinterest-icon.svg"
-                alt="Pinterest Profile"
-            /></a>
-            <a href="https://www.linkedin.com/in/pollianaaraujo/" title="LinkedIn" 
-              target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/linkedin-icon.svg"
-                alt="LinkedIn Profile"
-            /></a>
-            <a href="#" title="Buy me a coffe" target="_blank">
-              <img
-                class="img-fluid"
-                src="/images/bmc-icon.svg"
-                alt="Buy me a coffee Profile"
-            /></a>
-          </div>
+        <div class="col-12 col-lg-5 offset-lg-4">
+          <p>Keep updated about my work following me on social media.</p>
         </div>
-</div>
+        <div class="col-12 col-lg-3 footer-social-icons">
+          <a
+            href="https://github.com/pollianaaraujo"
+            title="GitHub"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/github-icon.svg"
+              alt="Github Profile"
+          /></a>
+          <a
+            href="https://www.instagram.com/pollibud/"
+            title="Instagram"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/instagram-icon.svg"
+              alt="Instagram Profile"
+          /></a>
+          <a
+            href="https://br.pinterest.com/pollibud/"
+            title="Pinterest"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="images/pinterest-icon.svg"
+              alt="Pinterest Profile"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/pollianaaraujo/"
+            title="LinkedIn"
+            target="_blank"
+          >
+            <img
+              class="img-fluid"
+              src="/images/linkedin-icon.svg"
+              alt="LinkedIn Profile"
+          /></a>
+          <a href="#" title="Buy me a coffe" target="_blank">
+            <img
+              class="img-fluid"
+              src="/images/bmc-icon.svg"
+              alt="Buy me a coffee Profile"
+          /></a>
+        </div>
+      </div>
       <!-- Copyright and icons reference -->
 
       <div class="border-top footer-notes d-flex justify-content-around">
@@ -222,6 +264,5 @@
         <p>Icons from <a href="#" title="Iconfinder">Iconfinder</a></p>
       </div>
     </footer>
-
   </body>
 </html>

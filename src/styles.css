@@ -335,6 +335,12 @@ p {
   .contact-page-button {
     padding: 12px 40px;
   }
+
+  .primary-button,
+  .ghost-button,
+  .secondary-button {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {

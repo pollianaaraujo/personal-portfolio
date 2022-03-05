@@ -188,9 +188,9 @@ p {
   color: #ffffff;
   background-color: var(--link-color);
   opacity: 0.8;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   padding-top: 60px;
   padding-bottom: 30px;
 }
@@ -317,6 +317,9 @@ p {
 /* Media queries */
 
 @media screen and (max-width: 576px) {
+  .hero-section {
+    padding-bottom: 30px;
+  }
   .hero-buttons,
   .project-buttons {
     display: flex;
@@ -340,6 +343,12 @@ p {
   .ghost-button,
   .secondary-button {
     display: block;
+  }
+
+  .contact-section a,
+  .work-section a {
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 

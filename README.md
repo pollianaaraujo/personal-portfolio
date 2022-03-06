@@ -2,13 +2,6 @@
 
 This is my first personal page, built with **HTML**, **CSS** and **Bootstrap 5** during SheCodes Responsive course.
 
-## 📃 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Resources](#-resources)
-- [Contact](#%EF%B8%8F-contact)
-
 # Overview
 
 **👩🏻‍💻 See it live!** --->

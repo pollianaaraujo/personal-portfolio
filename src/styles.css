@@ -434,7 +434,8 @@ p {
   }
 
   .contact-image,
-  .about-section-image {
+  .about-section-image,
+  .profile-picture {
     max-width: 40%;
   }
 

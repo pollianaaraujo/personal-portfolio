@@ -5,7 +5,7 @@ This is my first personal page, built with **HTML**, **CSS** and **Bootstrap 5**
 # Overview
 
 **👩🏻‍💻 See it live!** --->
-[pollianaaraujo.com](https://lucid-hoover-7d513f.netlify.app/)
+[pollianaaraujo.com](https://pollianaaraujo.com/)
 
 ## 💻 Features
 
@@ -25,6 +25,6 @@ The design assets are available in the links below:
 
 With you want to talk more about this project, let me know:
 
-- [SheCodes Profile](https://www.shecodes.io/students/435-polliana-araujo)
+- [SheCodes Profile](https://www.shecodes.io/students/562-polliana-araujo)
 - [Instagram](https://www.instagram.com/pollibud/)
 - [LinkedIn](https://www.linkedin.com/in/pollianaaraujo/)

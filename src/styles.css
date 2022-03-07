@@ -4,19 +4,19 @@
   --link-color: #482a1f;
   --primary-color: #705549;
   --highlight-color: #b85621;
-  --secondary-color: #adb3b6;
+  --secondary-color: #939b9f;
   --neutral-color: #dfdde0;
-  --notes-color: #bfb1a9;
+  --notes-color: #947d70;
 }
 
 /* Default Selectors */
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font);
 }
 
-h3,
 p {
   font-family: var(--content-font);
 }
@@ -165,6 +165,10 @@ p {
   padding-bottom: 24px;
 }
 
+.content-page-paragraph {
+  color: var(--primary-color);
+}
+
 .about-section {
   background-color: #ffffff;
   margin-top: 30px;
@@ -184,6 +188,7 @@ p {
 }
 
 .about-profile-heading {
+  font-family: var(--content-font);
   color: var(--highlight-color);
   font-size: 18px;
   font-weight: 500;
